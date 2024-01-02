@@ -1,0 +1,109 @@
+/*==========================
+    BASE COLOR
+==========================*/
+#area-headertop{
+    background-color: #03A9F4;
+    color: #FFF;
+}
+#area-headertop{
+    border-bottom: 1px solid #0D94D0;
+}
+/*==========================
+    BASE FONT COLOR
+==========================*/
+.baseCol{
+    color: #03A9F4;
+}
+
+body{
+    background-color: #F9F6F1;
+}
+/*==========================
+    MENU BACKGROUND COLOR
+==========================*/
+#area-menu{
+    /* background-color: #FFF; */
+    height: 60px;
+    border-bottom: 1px solid #d6d6d6;
+    background: -webkit-linear-gradient(#fff,#eaeaea);
+    background: -moz-linear-gradient(#fff,#eaeaea);
+    background: linear-gradient(#fff,#eaeaea);
+}
+/*==========================
+    MENU ITEM COLOR
+==========================*/
+.navmenu > ul > li > a{
+	color: #FFF;
+}
+ul.menu-horizontal > li:hover > a::before,ul.menu-horizontal > li.active > a::before{
+	border-bottom: 3px solid #03A9F4;
+}
+#area-sidebar{
+    background-color: #1a1919;
+}
+#MyClockDisplay {
+    background-color: #273239;
+    color: #FFF;
+}
+
+/*==========================
+    SIDEBAR MENU ITEM COLOR
+==========================*/
+.main-menu{
+    border-top: 1px solid #273239;
+}
+.main-menu > ul > li a,.main-menu > ul ul{
+	color: #D7D7D7;
+	border-bottom: 1px solid #273239;
+}
+.main-menu > ul > li > a > span {
+    background-color: #FFF;
+}
+.main-menu > ul > li:hover > a,.main-menu > ul > li.active > a,
+.main-menu > ul ul > li:hover > a,.main-menu > ul ul > li.active > a
+{
+	color: yellow;
+}
+
+.card .card-header,.card .card-footer{
+	border: 1px solid#d6d6d6;
+	background: -webkit-linear-gradient(#fff,#eaeaea);
+	background: -moz-linear-gradient(#fff,#eaeaea);
+	background: linear-gradient(#fff,#eaeaea);
+}
+.card .card-body{
+    background-color: #FFF;
+    border: 1px solid#d6d6d6;
+}
+.card .card-header h2,.header-controls{
+    background: -webkit-linear-gradient(#eaeaea,#fff);
+    background: -moz-linear-gradient(#eaeaea,#fff);
+    background: linear-gradient(#eaeaea,#fff);
+}
+.header-controls ul li{
+    border-right: 1px solid #c2c0c0;   
+}
+.header-controls ul li a{
+    color: #333;    
+}
+.header-controls ul li.active a::before,.header-controls ul li:hover a::before{
+    border-bottom: 3px solid #057AAE;
+    width: 100%;
+}
+footer{
+    background-color: #FFF;
+    border-top: 1px solid#e7e7e7;
+    color: #a19c9c;
+}
+footer a{
+    color: #a19c9c;
+    font-weight: bold;
+}
+.input-small input:focus,.input-small select:focus,.input-small textarea:focus,
+.input-large input:focus,.input-large select:focus,.input-large textarea:focus
+{
+	border-bottom-color: #03A9F4;
+}
+#closeMenus {
+	color: #FFF;
+}
